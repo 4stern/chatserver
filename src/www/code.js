@@ -6,7 +6,7 @@ $(function() {
         wrapperHome = document.getElementById('page_home'),
         wrapperConnecting = document.getElementById('page_connection'),
         
-        socket = io.connect('http://localhost');
+        socket = io.connect('http://'+location.host);
     
     if(!nickname){
         dLoginName.value = 'Guest'+ ~~( (Math.random() * (100000 - 100)) + 100 );
