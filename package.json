@@ -18,7 +18,8 @@
     "dependencies" : { 
         
         "mocha"         : "*",
-        "socket.io"     : "*"
+        "socket.io"     : "*",
+        "express"       : "*"
     },
     "engine" : { 
         "node"          : ">=0.10.25",

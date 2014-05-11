@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>test</title>
+    </head>
+    <body>
+        <h1></h1>
+        
+        <div id="page_connection">
+            ... connecting
+        </div>
+        
+        <div id="page_login" style="display:none;">
+            <div class="page_login_wrapper">
+	            <div class="page_login_head">Chat With Me</div>
+	            <div class="page_login_content">
+	                <label for="logn_username">Benutzername</label>
+	                <input id="login_username" name="username" value="" /><br />
+	                <p>
+	                    Your free chat<br />
+	                    Just login and meet new friends!
+	                </p>
+	                
+	                <div id="login">login into chat</div>
+	            </div>
+	            <div class="page_login_footer">chat-with-me.org by 4Stern 2014</div>
+            </div>
+            <div class="page_login_ds">
+                <p>Datenschutz: Keine Daten werden gespeichert. Alle Daten sind nur für die Zeit einer aktiven Verbindung verfügbar.</p>
+            </div>
+            
+        </div>
+        
+        <div id="page_home" style="display:none;"></div>
+        
+        
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="renderer.js"></script>
+        <script type="text/javascript" src="code.js"></script>
+    </body>
+</html>

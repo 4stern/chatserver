@@ -1,0 +1,204 @@
+body{
+	background: #323339;
+	font-family: Verdana, 'Lucida Sans Unicode', sans-serif;
+	color: white;
+}
+
+#page_home div.roomlist{
+	background: white;
+	width: 300px;
+	padding: 3px;
+	position: absolute;
+	top: 66px;
+	left: 6px;
+	color: black;
+}
+#page_home div.roomlist div{
+    padding: 3px 5px;
+    cursor: pointer;
+    color: #999;
+}
+#page_home div.roomlist div:hover{
+    color: #666;
+}
+#page_home div.roomlist div.joined{
+	color: #000;
+}
+#page_home div.roomlist div.joined.active{
+    font-weight: bold;
+    color: red;
+}
+
+
+#page_home div.contentwrapper{
+	background: white;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	top: 66px;
+	left: 320px;
+}
+#page_home div.contentwrapper div.roomWrapper{
+    background: white;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+}
+#page_home div.contentwrapper div.roomWrapper div.room{
+    background: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+}
+#page_home div.contentwrapper div.roomWrapper div.room div{
+	font-size: 14px;
+	margin: 0px;
+}
+#page_home div.contentwrapper div.roomWrapper div.room div p{
+	margin: 3px;
+	color: black;
+}
+#page_home div.contentwrapper div.roomWrapper div.room div p span{
+	font-weight: bold;
+}
+#page_home div.contentwrapper div.roomWrapper div.room div p span.me{
+	color: green;
+}
+#page_home div.contentwrapper div.roomWrapper div.room div p.system{
+    color: #999;
+}
+
+#page_home div.roomWrapper{
+    background: #eee;
+    position: absolute;
+    bottom: 40px;
+    right: 5px;
+    top: 5px;
+    left: 5px;	
+}
+
+#page_home div.inputWrapper{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    height: 30px;
+}
+
+#page_home div.inputWrapper input.message{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 50px;
+	bottom: 0px;
+	outline: none;
+	border: 1px solid #eee;
+	padding: 3px 5px;
+	width: 100%;
+}
+#page_home div.inputWrapper input.button{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 3px 5px;
+    width:50px;
+}
+
+/* **********************************************************************************************
+
+        LOGIN FORM
+
+   ********************************************************************************************** */
+#page_login{
+	width: 100%;
+	margin-top: 60px;
+}
+#page_login div.page_login_wrapper{
+	margin: 0 auto;
+	width: 400px;
+	background: #414248;
+	padding: 5px;
+	border-radius: 2px;
+	border: 1px solid #000;
+	box-shadow: 0px 1px 23px #141414;
+}
+#page_login div.page_login_head{
+	text-align: left;
+	color: white;
+	border-bottom: 1px solid #000;
+	padding: 10px 0px 14px 24px;
+	margin: 4px 0px 18px 0px;
+	font-size: 35px;
+}
+#page_login div.page_login_content{
+    padding: 0px 24px;
+}
+#page_login div.page_login_content p{
+    font-size: 13px;
+}
+#page_login div.page_login_footer{
+	text-align: center;
+	color: white;
+	border-top: 1px solid #000;
+	padding: 10px 0px 0px 0px;
+	margin: 4px 0px 7px 0px;
+	font-size: 11px;
+}
+#login{
+	width: 350px;
+	height: 35px;
+	border: 1px solid #383838;
+	background: #3F47FF;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-size: 21px;
+	text-align: center;
+	padding-top: 8px;
+	margin: 40px auto;
+}
+#page_login div.page_login_ds{
+	margin: 0 auto;
+	width: 400px;
+	font-size: 10px;
+	margin-top: 25px;
+	color: #807E7E;
+}
+
+#page_login #login_username{
+	padding: 5px 10px;
+	outline: none;
+	border: 1px solid #999;
+	width: 225px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
