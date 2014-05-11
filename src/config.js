@@ -1,5 +1,5 @@
 module.exports={
     web:{
-        port:8081
+        port:80
     }
 }
