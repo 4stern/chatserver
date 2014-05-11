@@ -52,7 +52,9 @@ function addEntryToRoom(room,username,text, bOwnMessage){
     }
     dEntry.appendChild(document.createTextNode(text));
     dEntryWrapper.appendChild(dEntry);
-    document.getElementById('roomwrapper_'+room).appendChild(dEntryWrapper);
+    var dRoom = document.getElementById('roomwrapper_'+room);
+    dRoom.appendChild(dEntryWrapper);
+    $(dRoom).prop({ scrollTop: $(dRoom).height()+100 });
 }
 
 function renderHome(rooms,nickname,socket){

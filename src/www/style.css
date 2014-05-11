@@ -53,6 +53,7 @@ body{
     right: 0px;
     top: 0px;
     left: 0px;
+    overflow: auto;
 }
 #page_home div.contentwrapper div.roomWrapper div.room div{
 	font-size: 14px;
